@@ -1,12 +1,10 @@
 '''
-Assignment 1
+lambdata - a  collection of data science helper funcitons
 '''
 #
-# import pandas as pd
-# import numpy as np
-#
-# ONES = pd.DataFrame(np.ones(10))
-# ZEROS = pd.DataFrame(np.zeros(50))
+import pandas as pd
+import numpy as np
+import sklearn
 
 # Write a program to read through the mbox-short.txt and figure out who has
 # sent the greatest number of mail messages.  The program looks for "From "
@@ -17,31 +15,30 @@ Assignment 1
 # maximum loop to find the most prolific committer.
 
 
-NAME = input("Enter file: ")
-FHAND = open(NAME)
-WORDS = list()
-#count = 0
-
-for line in FHAND:
-    if not line.startswith("From "):
-        continue
-    line = line.split()
-    WORDS.append(line[1])
-#    emails[words] = line[1]
-
-COUNTS = dict()
-
-for word in WORDS:
-    COUNTS[word] = COUNTS.get(word, 0) + 1
-
-BIGCOUNTS = None
-BIGWORD = None
-for email, COUNTS in COUNTS.items():
-    if BIGCOUNTS is None or COUNTS > BIGWORD:
-        BIGWORD = email
-        BIGCOUNTS = COUNTS
-
-print(BIGWORD, BIGCOUNTS)
+# name = input("Enter file: ")
+# fhand = open(name)
+# words = list()
+# #count = 0
+#
+# for line in fhand:
+#     if not line.startswith("From "): continue
+#     line = line.split()
+#     words.append(line[1])
+# #    emails[words] = line[1]
+#
+# counts = dict()
+#
+# for word in words:
+#     counts[word] = counts.get(word, 0) + 1
+#
+# bigcount = None
+# bigword = None
+# for email,counts in counts.items():
+#     if bigcount is None or counts > bigcount:
+#         bigword = email
+#         bigcount = counts
+#
+# print(bigword, bigcount)
 
 
 #    count = count + 1

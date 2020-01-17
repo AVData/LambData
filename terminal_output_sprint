@@ -1,6 +1,6 @@
 Last login: Fri Jan 17 08:03:23 on ttys004
-(base) flanuer@agustins-mbp DS-unit-3-sprint-1-software-engineering % atom .
-(base) flanuer@agustins-mbp DS-unit-3-sprint-1-software-engineering % python3
+(base) mbp path % atom .
+(base) mbp path % python3
 Python 3.7.4 (default, Aug 13 2019, 15:17:50)
 [Clang 4.0.1 (tags/RELEASE_401/final)] :: Anaconda, Inc. on darwin
 Type "help", "copyright", "credits" or "license" for more information.
@@ -17,7 +17,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>> prod.identifier
 51179293
 >>> exit()
-(base) flanuer@agustins-mbp DS-unit-3-sprint-1-software-engineering % python3
+(base) mbp path % python3
 Python 3.7.4 (default, Aug 13 2019, 15:17:50)
 [Clang 4.0.1 (tags/RELEASE_401/final)] :: Anaconda, Inc. on darwin
 Type "help", "copyright", "credits" or "license" for more information.
@@ -43,13 +43,13 @@ Hey that hurt!
 >>> glove.explode()
 ...it's a glove.
 >>> exit()
-(base) flanuer@agustins-mbp DS-unit-3-sprint-1-software-engineering % python3 acme_report.py
+(base) mbp path % python3 acme_report.py
 ACME CORPORATION INVENTORY REPORT
  Unique product names:  19
  Average price:  57.36666666666667
  Average weight:  47.233333333333334
  Average Flammability:  1.3673211190842127
-(base) flanuer@agustins-mbp DS-unit-3-sprint-1-software-engineering % python3 acme_test.py
+(base) mbp path % python3 acme_test.py
 .....fizzle
 ...boom!
 .Not so stealiable...
@@ -59,4 +59,4 @@ Kinda stealable.
 Ran 6 tests in 0.001s
 
 OK
-(base) flanuer@agustins-mbp DS-unit-3-sprint-1-software-engineering %
+(base) mbp path %
